@@ -1,0 +1,15 @@
+{% extends 'app/base.html' %}
+
+
+{% block contenido %}
+
+<div>
+    <br><br><br>
+    <h2>Se ha cancelado el proceso de autenticación<h2>
+</div>
+&nbsp;
+<a href="{% url 'home' %}">ir al home<a/> |
+<a href="{% url 'registro' %}">registrate<a/> |
+<a href="{% url 'social:begin' 'facebook' %}">Ingresar con facebook</a>
+
+{% endblock %}
