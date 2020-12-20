@@ -20,8 +20,13 @@
         <button type="reset" value="Cancelar" class="btn btn-secondary">Cancelar</button> 
         &nbsp;
         <button type="submit" id="btnEnviar" class="btn btn-primary">Enviar</button>
-        <div>
-        
+        &nbsp;
+        <a href="https://api.whatsapp.com/send?phone=56948808005&text=Hola%2C+Quiero+mi+Api" class="btn btn-success">Whatsapp</a>
+  
+        </div>
+        <br>
+        <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+
         </form>
         {{mensaje}}
       </div>
@@ -30,5 +35,7 @@
   </div>
 <div>
 
+
 <table id="tablacontactos"></table>
+
 {% endblock %}

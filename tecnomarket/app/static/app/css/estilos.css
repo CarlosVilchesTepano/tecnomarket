@@ -264,4 +264,9 @@ textarea {
         padding:20px 0;
     }
 
+    #map {
+        height: 500px;
+        width: 100%;
+    }
+
 }
